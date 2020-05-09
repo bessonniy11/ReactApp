@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+}
+.nav {
+    grid-area: n;
+    background-color: teal;
+}
+.item a {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.active a {
+    color: gold;
+}
