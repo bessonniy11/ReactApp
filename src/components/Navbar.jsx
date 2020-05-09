@@ -17,9 +17,6 @@ const Navbar = () => {
         <div>
             <a href="#">Settings</a>
         </div>
-        <div>
-            <a href="#">Other</a>
-        </div>
     </nav>
 }
 
