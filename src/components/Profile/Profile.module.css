@@ -18,3 +18,12 @@
 .wall {
     margin: 10px;
 }
+.infOfMan {
+    display: flex;
+}
+.infBirthAndCity {
+    margin-left: 20px;
+}
+.infBirthAndCity p {
+    margin-bottom: -15px;
+}

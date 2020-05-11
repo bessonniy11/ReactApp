@@ -1,0 +1,10 @@
+.nameTitle {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.wall {
+    margin: 10px;
+}
+.newPost {
+    display: block;
+}
