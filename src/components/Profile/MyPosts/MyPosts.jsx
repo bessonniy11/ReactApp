@@ -6,7 +6,7 @@ const MyPosts = () => {
     return  <div className={s.wall}>
         <div className={s.nameTitle}>My posts</div>
         <div className={s.newPost}>
-            <div>New post</div>
+            <div className={s.newpost}>New post..</div>
             <textarea></textarea>
             <div>
                 <button>Add post</button>
@@ -14,9 +14,8 @@ const MyPosts = () => {
             </div>
         </div>
         <div>
-            <Post />
-            <Post />
-            <Post />
+            <Post message='Hi, how are you?' likes='7' />
+            <Post message="It's my first post" likes='12' />
         </div>
     </div>
 
