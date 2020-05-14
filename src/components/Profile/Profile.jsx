@@ -3,8 +3,8 @@ import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
-    return <div className={s.content}>
-        <div>
+    return <div>
+        <div className={s.profileImg}>
             <img src="https://storage.googleapis.com/replit/images/1575910179162_be44cb648579f3e5693290578cf90ad6.jpeg" alt=""/>
         </div>
         <div  className={s.infOfMan}>
