@@ -4,12 +4,23 @@ a {
 .nav {
     grid-area: n;
     background-color: teal;
+    padding-top: 20px;
+}
+.item {
+    width: 160px;
+    margin-left: 10px;
+    transition: 0.5s;
 }
 .item a {
     color: white;
     font-size: 20px;
     margin-left: 10px;
 }
-.active a {
+.item:hover {
+    background: rgba(0, 150, 160, .9);
+    border-radius: 5px;
+}
+
+.item .activeLink {
     color: gold;
 }
