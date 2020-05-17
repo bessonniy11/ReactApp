@@ -6,7 +6,19 @@
     padding: 10px;
 }
 .dialog {
-
+    width: 110px;
+    margin-left: 10px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+.dialog:hover {
+    background: rgba(110, 190, 280, .9);
+    border-radius: 5px;
+}
+.dialog a {
+    margin-left: 10px;
+    color: black;
+    font-weight: 500;
 }
 .messages {
     padding: 10px;
@@ -14,6 +26,6 @@
 .message {
 
 }
-.active {
-    color: gold;
+.activeLink {
+    color: gold !important;
 }

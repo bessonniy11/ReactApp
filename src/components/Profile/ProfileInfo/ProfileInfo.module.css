@@ -1,0 +1,34 @@
+
+.profileImg img {
+    width: 100%;
+    height: 200px;
+}
+
+.avatar img {
+    height: 100px;
+    width: 100px;
+    margin: 10px 0 0 10px;
+    border-radius: 5px;
+}
+
+.nameProfile {
+    font-weight: bold;
+    margin: 0 0 20px 10px;
+}
+
+.wall {
+    margin: 10px;
+}
+
+.infOfMan {
+    display: flex;
+    padding: 10px;
+}
+
+.infBirthAndCity {
+    margin-left: 20px;
+}
+
+.infBirthAndCity p {
+    margin-bottom: -15px;
+}
