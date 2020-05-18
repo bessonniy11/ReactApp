@@ -4,6 +4,7 @@
 }
 .wall {
     margin: 10px;
+    color: white;
 }
 .newPost {
     display: block;

@@ -4,7 +4,7 @@ import s from './ProfileInfo.module.css';
 
 const ProfileInfo = () => {
     return (
-        <div>
+        <div className={s.profileInfo}>
             <div className={s.profileImg}>
                 <img
                     src="https://storage.googleapis.com/replit/images/1575910179162_be44cb648579f3e5693290578cf90ad6.jpeg"

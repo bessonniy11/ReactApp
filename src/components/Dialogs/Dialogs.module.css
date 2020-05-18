@@ -17,14 +17,15 @@
 }
 .dialog a {
     margin-left: 10px;
-    color: black;
+    color: white;
     font-weight: 500;
 }
 .messages {
     padding: 10px;
 }
 .message {
-
+    color: white;
+    font-weight: 500;
 }
 .activeLink {
     color: gold !important;
