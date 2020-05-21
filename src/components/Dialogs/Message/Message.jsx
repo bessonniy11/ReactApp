@@ -5,7 +5,7 @@ const Message = (props) => {
 
     return (
         <div className={s.message}>
-            {props.textMessage}
+            {props.img} {props.textMessage}
         </div>
     );
 }

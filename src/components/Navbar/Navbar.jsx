@@ -1,8 +1,11 @@
 import React from "react";
 import s from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
+import DialogItem from "../Dialogs/DialogItem/DialogsItem";
 
-const Navbar = () => {
+const Navbar = (props) => {
+    let dialogsElements = props.state.dialogs.map(d => <DialogItem img={d.img} name={d.name} id={d.id}/>);
+
     return (
         <nav className={s.nav}>
             <div className={s.item}>
@@ -19,6 +22,12 @@ const Navbar = () => {
             </div>
             <div className={s.item}>
                 <NavLink to="#">Settings</NavLink>
+            </div>
+            <div className={s.friends}>
+                <NavLink to="#" >
+                    Friends
+                    {dialogsElements}
+                </NavLink>
             </div>
         </nav>
     );

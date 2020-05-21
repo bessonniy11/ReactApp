@@ -12,6 +12,7 @@
 .app-wrapper-content {
   grid-area: c;
   background-color: #5277C2;
+  height: 100%;
 }
 
 

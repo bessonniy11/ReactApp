@@ -24,3 +24,19 @@ a {
 .item .activeLink {
     color: gold;
 }
+.friends {
+    margin-top: 60px;
+    width: 160px;
+    margin-left: 10px;
+}
+.friends a {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.friends img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-bottom: -5px;
+}

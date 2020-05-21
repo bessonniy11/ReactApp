@@ -17,7 +17,7 @@ const ProfileInfo = () => {
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4N8MmlTqVNcvF69NxZxA8-IAuIM-dBFgdnik-ZK3hKWCK-mg&s"
                             alt=""/>
                     </div>
-                    <p className={s.nameProfile}>Bessonniy11</p>
+                    <p className={s.nameProfile}>Dmitriy</p>
                 </div>
 
                 <div className={s.infBirthAndCity}>
