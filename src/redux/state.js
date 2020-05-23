@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {rerenderEntireTree} from "../render";
 
 let state = {
     profilePage: {
@@ -44,6 +44,28 @@ let state = {
                     alt=""/>},
         ]
     }
+}
+
+export let addPost = (postMessage) => {
+    let newPost = {
+        id: 5,
+        message: postMessage,
+        likes: 0
+    };
+    state.profilePage.posts.push(newPost);
+    rerenderEntireTree(state);
+}
+
+export let addMessage = (textMessage) => {
+    let newMessage = {
+        id: 5,
+        textMessage: textMessage,
+        img:<img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4N8MmlTqVNcvF69NxZxA8-IAuIM-dBFgdnik-ZK3hKWCK-mg&s"
+            alt=""/>
+    };
+    state.dialogsPage.messages.push(newMessage);
+    rerenderEntireTree(state);
 }
 
 export default state;
